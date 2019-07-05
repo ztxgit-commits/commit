@@ -9,3 +9,6 @@ def login(request):
 
 def reg(request):
     return redirect("reg")
+
+def add(request):
+    redirect("add")
